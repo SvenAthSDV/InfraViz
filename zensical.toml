@@ -1,0 +1,35 @@
+site_name = "InfraViz"
+url = "https://infraviz.com"
+description = "Documentation officielle d'InfraViz"
+author = "InfraViz Team"
+
+[theme]
+name = "material"
+
+[[theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle = { icon = "material/brightness-7", name = "Passer au mode sombre" }
+
+[[theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle = { icon = "material/brightness-4", name = "Passer au mode clair" }
+
+[theme.features]
+content = { tabs = { link = true } }
+
+nav = [
+  { "Accueil" = "index.md" },
+  { "Démarrage" = "getting-started.md" },
+  { "Fonctionnalités" = "features.md" },
+  { "Architecture" = "architecture.md" }
+]
+
+[markdown]
+extensions = [
+  "admonition",
+  "permalinks",
+  "tables",
+  "attr_list"
+]
