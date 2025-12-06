@@ -2,6 +2,7 @@ site_name = "InfraViz"
 url = "https://SvenAthSDV.github.io/InfraViz/"
 description = "Documentation officielle d'InfraViz"
 author = "InfraViz Team"
+use_directory_urls = false
 
 [theme]
 name = "material"
